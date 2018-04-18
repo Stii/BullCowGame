@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5424AD91206D3B9F00E18052 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5424AD90206D3B9F00E18052 /* main.cpp */; };
+		5424AD9A206D3CF600E18052 /* FBullCowGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5424AD98206D3CF600E18052 /* FBullCowGame.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		5424AD8D206D3B9F00E18052 /* BullCowGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BullCowGame; sourceTree = BUILT_PRODUCTS_DIR; };
 		5424AD90206D3B9F00E18052 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5424AD98206D3CF600E18052 /* FBullCowGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FBullCowGame.cpp; sourceTree = "<group>"; };
+		5424AD99206D3CF600E18052 /* FBullCowGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FBullCowGame.hpp; sourceTree = "<group>"; };
+		54B4483C2087BAC800FB07D9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,7 @@
 		5424AD84206D3B9F00E18052 = {
 			isa = PBXGroup;
 			children = (
+				54B4483C2087BAC800FB07D9 /* README.md */,
 				5424AD8F206D3B9F00E18052 /* BullCowGame */,
 				5424AD8E206D3B9F00E18052 /* Products */,
 			);
@@ -58,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				5424AD90206D3B9F00E18052 /* main.cpp */,
+				5424AD98206D3CF600E18052 /* FBullCowGame.cpp */,
+				5424AD99206D3CF600E18052 /* FBullCowGame.hpp */,
 			);
 			path = BullCowGame;
 			sourceTree = "<group>";
@@ -120,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5424AD91206D3B9F00E18052 /* main.cpp in Sources */,
+				5424AD9A206D3CF600E18052 /* FBullCowGame.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
